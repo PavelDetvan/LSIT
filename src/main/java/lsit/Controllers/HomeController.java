@@ -9,7 +9,6 @@ public class HomeController {
     
     @GetMapping("/")
     public ResponseEntity get(){
-        return ResponseEntity.ok("Hello World!");
+        return ResponseEntity.ok("Welcome to the Car Rental Service!");
     }
-
 }
