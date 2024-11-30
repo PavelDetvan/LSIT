@@ -1,0 +1,18 @@
+server:
+  port: 8080
+
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          gitlab:
+            client-id: 02a3939eb8ee6e6ff6cfa36abefbc9e7bd28697c921afe5aac56247521c0d212
+            client-secret: gloas-500c570b40832bb192374c2255c183eff8968b5f6e0606b97580c7beef1393f6
+            scope: openid, profile, email
+            authorization-grant-type: authorization_code
+            redirect-uri: "http://localhost:8080/login/oauth2/code/gitlab"
+        provider:
+          gitlab:
+            issuer-uri: https://gitlab.com
+            user-name-attribute: sub

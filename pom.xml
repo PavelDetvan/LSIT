@@ -28,11 +28,21 @@
             <artifactId>spring-boot-starter-web</artifactId>
             <version>3.3.2</version>
         </dependency>
-        <!-- http://localhost:8080/swagger-ui/index.html --> 
+        <!-- Swagger UI for API documentation --> 
         <dependency>
             <groupId>org.springdoc</groupId>
             <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
             <version>2.5.0</version>
+        </dependency>
+        <!-- Spring Security for securing endpoints -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
+        <!-- OAuth2 Client for GitLab login integration -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-oauth2-client</artifactId>
         </dependency>
     </dependencies>
 
