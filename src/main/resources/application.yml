@@ -16,3 +16,11 @@ spring:
           gitlab:
             issuer-uri: https://gitlab.com
             user-name-attribute: sub
+google-cloud:
+  coupon-info:
+    url: "https://gcp.secure.force.com/GCPEDU?cid=aI5UzI3bVzR2nTsBmskT9XAmH0pDNXJrLigkvt1bnJOxPyg2Ez%2FPtyq%2FEpjU5Ja0/"
+    request-info:
+      details: "You will be asked for a name and email address, which needs to match your school domain. A confirmation email will be sent to you with a coupon code."
+    request-until: "3/6/2025"
+    coupon-valid-until: "11/6/2025"
+    note: "You can only request ONE code per unique email address."
