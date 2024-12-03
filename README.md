@@ -32,4 +32,15 @@ A web application for managing car rentals, built with **Java (Spring Boot)**. I
    git clone https://github.com/your-username/car-rental-service.git
    cd car-rental-service
 
+Configure AWS & GitLab: Update application.yml with credentials. 
+Run:
+
+./mvnw spring-boot:run
+
+
+Access Swagger UI at:
+
+http://localhost:8080/swagger-ui/index.html
+
+
 
