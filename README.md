@@ -4,6 +4,7 @@ A web application for managing car rentals, built with **Java (Spring Boot)**. I
 
 ## Features
 - **Role-Based Access Control** via **GitLab OAuth2**:
+  
     Admins:
     - Permissions: Admins can manage everything in the application, such as adding, updating, deleting cars, customers, and bookings.
     - Endpoints Accessible: All endpoints are accessible to admins.
